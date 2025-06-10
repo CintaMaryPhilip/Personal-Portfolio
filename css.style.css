@@ -1,0 +1,109 @@
+body {
+    background: #181818;
+    color: #ffffff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #232323;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #00bfae;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s;
+    padding: 5px 0;
+}
+
+/* Underline effect */
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffb400;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+nav ul li a:hover::after,
+nav ul li a.active::after {
+    width: 100%;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile-pic {
+    width: 100%;
+    max-width: 200px;      /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00bfae;
+    display: block;
+}
+
+
+.about-description {
+    flex: 1;
+}
+
+section {
+    background: #232323;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+     max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3 {
+    color: #00bfae;
+}
+
+a {
+    color: #00bfae;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffb400;
+}
+
+button {
+    background: #00bfae;
+    color: #181818;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #ffb400;
+    color: #181818;
+}

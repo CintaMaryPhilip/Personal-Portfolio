@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css.style.css">
+</head>
+<body>
+    <header>
+        <h1>Hi,I'm Cinta Mary Philip</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+        <img src="images/Profilepicture.png" alt="Profile Picture" class="profile-pic">
+        <div class="about-description">
+            <p>
+                I’m an enthusiastic Electrical and Electronics Engineering student with a minor in Computer Science at Rajiv Gandhi Institute of Technology,Kerala. My academic journey has fueled my passion for technology, especially where software meets hardware—such as embedded systems and real-world automation.
+            </p>
+            <p>
+                I have actively contributed to technical communities through leadership roles in IEEE SB RIT and ISTE SB RIT, where I’ve organized events, led teams, and fostered collaboration among peers. These experiences have strengthened my communication, teamwork, and project management skills.
+            </p>
+            <p>
+                My technical interests include programming (C, Python), circuit design, and leveraging deep learning for innovative solutions. I enjoy building projects that blend code and electronics, and I am always eager to learn new technologies and take on challenging problems.
+            </p>
+            <p>
+                Outside of academics, I am passionate about mentoring, volunteering, and participating in workshops. I believe in continuous growth and strive to make a positive impact through technology and leadership.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+        <li><strong>Programming Languages:</strong> C, Python, Java</li>
+        <li><strong>Software:</strong> MATLAB</li>
+        <li><strong>Technical Documentation and Communication Skills</strong></li>
+        <li><strong>Problem-solving and Analytical Skills</strong></li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>COMPARATIVE EVALUATION OF VARIOUS SINGLE-PHASE PWM TECHNIQUES ON FPGA/DSP BASED 5-LEVEL CHB INVERTER</h3>
+            <p>This project focuses on the design and implementation of a single-phase 5-level Cascaded H-Bridge (CHB) inverter for photovoltaic (PV) applications, using FPGA-based control. It evaluates and compares multiple PWM techniques—Sinusoidal PWM (SPWM), Selective Harmonic Elimination PWM (MSHE), and Bus Clamping PWM (BCPWM)—in terms of Total Harmonic Distortion (THD), switching losses, and overall efficiency. Developed in Verilog for FPGA compatibility, the system ensures low-latency control and real-time adaptability. The inverter design is optimized for industrial standards, offering enhanced harmonic reduction, reduced EMI, and improved performance for PV integration.
+</p>
+        </div>
+        <div class="project">
+            <h3>OPTIMIZING PARTIAL DISCHARGE DETECTION THROUGH ULTRASOUND AND DEEP LEARNING</h3>
+            <p>Optimizing Partial Discharge Detection through Ultrasound and Deep Learning
+This project leverages ultrasound sensing and deep learning to enhance the detection and classification of Partial Discharge (PD) faults in electrical equipment. Three custom-built Convolutional Neural Network (CNN) models were developed to accurately identify four PD types—arcing, corona discharge, tracking, and looseness—along with healthy conditions. Trained on real-world noisy data, the models achieved over 94% accuracy, demonstrating strong resilience and reliability in practical environments. This work highlights the potential of deep learning in predictive maintenance and fault diagnosis for high-voltage equipment.
+</p>
+        </div>
+        
+        <div class="project">
+            <h3>HAMMING CODE</h3>
+            <p>Implemented a (7, 4) Hamming Code algorithm on a breadboard using logic gate ICs to detect and correct single-bit errors in a 4-bit data stream. This hardware-based project demonstrates real-time error detection and correction, enhancing data reliability in digital communication systems.
+    </p>
+</p>
+        </div>
+        <div class="project">
+    <h3>AT89C51 Parallel Programmer</h3>
+    <p>
+        Designed and developed a parallel programmer for the AT89C51 microcontroller, enabling efficient and reliable flashing of firmware onto the device. This project streamlines the programming process, ensuring accurate and consistent microcontroller updates for embedded applications.
+    </p>
+</div>
+
+
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+        <p><strong>Email:</strong> <a href="cintamaryphilip1@gmail.com">cintamaryphilip1@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91-8075641598</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cinta-mary-philip" target="_blank">linkedin.com/in/cinta-mary-philip</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/CintaMaryPhilip" target="_blank">github.com/CintaMaryPhilip</a></p>
+    </div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cinta Mary Philip. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
