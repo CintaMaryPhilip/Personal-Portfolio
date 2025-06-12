@@ -1,9 +1,9 @@
 # Personal Portfolio
 
-A responsive personal portfolio website created using HTML and CSS.
+A personal portfolio website created using HTML and CSS.
 
 ## 💡 Features
-- Clean, responsive layout
+- Clean layout
 - Sections: About, Skills, Projects, Contact
 
 ## 🛠️ Built With
