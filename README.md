@@ -9,7 +9,6 @@ A personal portfolio website created using HTML and CSS.
 ## 🛠️ Built With
 - HTML5
 - CSS3
-- JavaScript (optional interactivity)
 
 ## 📌 Live Demo
 [View on GitHub Pages](https://cintamaryphilip.github.io/Personal-Portfolio/)
